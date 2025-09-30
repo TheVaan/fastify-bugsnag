@@ -12,6 +12,7 @@
     }
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsup-node --tsconfig tsconfig.build.json",
     "lint": "ts-standard --verbose | snazzy",
     "lint:fix": "ts-standard --fix | snazzy",
